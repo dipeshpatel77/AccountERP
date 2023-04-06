@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: #f5f6f8;
+
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.sub-container {
+    background-color: #fff; 
+    border: 1px solid #777;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 27.8rem);
+    margin: 0.5rem 0.3rem;
+}
+
+.wrapper {
+    padding: 0.5rem;
+}
+
+.wrapper .input span {
+    display: inline-block;
+    width: 38%;
+    font-size: 0.85rem;
+
+}
+
+.wrapper .input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem;
+}
+
+.wrapper .input input {
+    position: relative;
+    width: 89.5%;
+    height: 20px;
+    /* background: #f5f6f8; */
+    /* outline: none; */
+    /* border: none; */
+}
+
+.wrapper .input select {
+    width: 90%;
+    height: 26px;
+    /* background: #f5f6f8; */
+    /* outline: none; */
+    /* border: none; */
+}
+
+.wrapper .input .check-box {
+    background: #f5f6f8;
+    /* outline: none; */
+    /* border: none; */
+}
+
+.sub-container-2 {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0.5rem 0;
+    border: 1px solid #777;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 0.5rem 0.3rem;
+}
+
+.sub-container-2 .input input {
+     /* background: #f5f6f8; */
+     /* outline: none; */
+     /* border: none; */
+     height: 20px;
+}
+
+.sub-container-2 .input select {
+     /* background: #f5f6f8; */
+}
+
+.sub-container-2 .input span {
+        display: inline-block;
+        width: 38%;
+        font-size: 0.85rem;
+        padding-left: 0.6em;
+    }
+    
+.container-2 {
+    display: grid;
+    width: 100%;
+}
+
+.form-heading {
+    text-align: center;
+    position: relative;
+}
+
+.form-heading:after{
+    content: '';
+    width: 100%;
+    border-bottom: solid 1px #000;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 1;
+}
+ 
+.form-heading h3{
+    background-color: #f5f6f8;
+    width: auto;
+    display: inline-block;
+    
+    margin: 0.5em ;
+    color: black;
+    position: relative;
+    font-weight: lighter;
+    z-index: 2;
+    font-size: 1rem;
+    margin: 0rem;
+    font-weight: 600;
+}
+
+.sub-container-3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    background-color: #fff;
+    padding: 0.5rem 0;
+    border: 1px solid #777;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 0.5rem 0.3rem;
+}
+
+.sub-container-3 .input span{
+        font-size: 0.85rem;
+        padding-left: 0.5em;
+}
+
+.sub-container-3 .input input,select {
+    /* background: #f5f6f8; */
+    /* outline: none; */
+    /* border: none; */
+}
+
+.sub-container-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #fff;
+    padding: 0.5rem 0;
+    border: 1px solid #777;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 0.5rem 0.3rem;
+}
+
+.sub-container-4 .input input,select {
+    /* background: #f5f6f8; */
+    /* outline: none; */
+    /* border: none; */
+}
+
+.sub-container-4 .input span{
+    font-size: 0.85rem;
+    padding-left: 0.5rem;
+}
+
+.sub-container-5 {
+    position: relative;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    border: 1px solid #777;
+    margin: 0.5rem 0.5rem;
+    outline: none;
+    border: none;
+}
+
+.textarea {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97vw;
+    margin: 0.5rem 0.3rem;
+    padding: 0.3rem 0.3rem;
+}
+
+.textarea textarea {
+    font-size: 0.85rem;
+    font-weight: 400;
+    width: 97vw;
+    height: 13vh;
+    padding: 1rem;
+    resize: none;
+}
+
+.buttons {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0.6rem;
+    /* border: 1px solid #777; */
+}
+
+.buttons .btn {
+    display: flex;
+    color: #000;
+    background: #f5f6f8;
+    padding: 0.3rem 1rem;
+    border-radius: 3px;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border: 1px solid #777;
+}
+
+.buttons .ok-btn ion-icon {
+    display: block;
+    color: #4cdf4c;
+    padding: 0.2em;
+}
+
+.buttons .Cancel-btn ion-icon {
+    display: block;
+    color: red;
+    padding: 0.2em;
+}
+
+.buttons .btn:hover {
+    background-color: #fff;
+    color: #777;
+
+}

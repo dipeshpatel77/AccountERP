@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: #f5f6f8;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.grid-4col {
+    display: grid;
+    grid-template-columns: repeat(4, 20rem);
+    grid-row-gap: 3px;
+    margin: 0.5rem;
+    background: #fff;
+    padding: 0.5rem;
+}
+
+.grid-4col .input span {
+    display: inline-block;
+    width: 35%;
+    font-size: 0.85rem;
+    padding-left: 0.5rem;
+}
+
+.grid-4col .input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-4col .input select{
+    display: inline-block;
+    width: 72%;
+    height: 23px;
+}
+
+.input-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-text span{
+    display: inline-block;
+    font-size: 0.85rem;
+    width: 35%;
+    padding-left: 0.5rem;
+}
+
+.input-text input {
+    width: 35%;
+}
+
+.input-text select {
+    width: 85%;
+    margin-left: 2.9rem;
+    height: 23px;
+}
+
+.text-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box span {
+    display: inline-block;
+    font-size: 0.85rem;
+    width: 35%;
+    padding-left: 0.5rem;
+}
+
+.text-box input {
+    display: inline-block;
+    width: 96%;
+    height: 19px;
+}
+
+.search {
+    position: relative;
+    width: 77%;
+}
+
+.search .search-icon {
+    position: absolute;
+    right: 2%;
+    top: 18%;
+}
+
+.buttons-1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.8rem;
+}
+
+.load-btn {
+    display: flex;
+    background: #f5f6f8;
+    border: 1px solid #777;
+    padding: 0.2rem 1rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.load-btn ion-icon {
+    display: block;
+    color: green;
+    padding-right: 0.2rem;
+}
+
+.container-1 {
+    display: grid;
+    grid-template-columns: 120px 120px 120px 150px 120px 120px 120px 120px 120px 120px 120px;
+    margin: 0.5rem;
+    width: 100%;
+    height: 60%;
+}
+
+.input-box {
+    background: #fff;
+    border: 1px solid #777;
+    width: 100%;
+}
+
+.input-box span{
+    display: block;
+    text-align: center ;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 0.2rem 0;
+}
+
+.container-1 .text {
+    display: grid;
+    grid-template-columns:  120px 120px 150px 120px 120px 120px 120px 120px 120px 120px 120px;
+}
+
+.text-input .text-1 {
+    display: grid;
+    grid-template-columns: 120px 120px 120px 150px 120px 120px 120px 120px 120px 120px 120px;
+    margin-left: 0.5rem;
+}
+
+.text-1 input {
+    outline: none;
+    border: none;
+}
+
+.sub-container {
+    display: grid;
+    grid-template-columns:  120px 120px 120px 150px 120px 120px 120px 120px 120px 120px 120px;
+    margin: 0 0.5rem; 
+    border: 1px solid #777;
+    padding: 0.3rem;
+    background: #f5f6f8;
+}
+
+.sub-container .text-3 input{
+    outline: none;
+    border: none;
+    display: none;
+}
+
+.sub-container .text-2 input{
+    width: 90%;
+    height: 21px;
+}
+
+.buttons-2 {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    margin-left: 0.5rem;
+}
+
+.buttons-2 .btn {
+    display: flex;
+    color: #000;
+    background: #f5f6f8;
+    padding: 0.2rem 1rem;
+    border-radius: 3px;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    border: 1px solid #777;
+}
+
+.buttons-2 .ok-btn ion-icon {
+    display: block;
+    color: #4cdf4c;
+    padding: 0.2em;
+}
+
+.buttons-2 .Cancel-btn ion-icon {
+    display: block;
+    color: red;
+    padding: 0.2rem;
+}
+
+.buttons-2 .btn:hover {
+    background-color: #fff;
+    color: #777;
+
+}
+
+.buttons-2 .text-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.text-4 span {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 3.3rem;
+    margin-right: 0.5rem;
+}
+
+.text-4 input {
+    width: 984px;
+    height: 24px;
+}

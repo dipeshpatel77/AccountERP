@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cash collection</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <form action="#">
+            <div class="grid-4col">
+                <div class="input">
+                    <span>Date</span>
+                    <input type="date" name="" id="">
+                    <input type="date" name="" id="">
+                </div>
+
+                <div class="input">
+                    <span>Cash/Bank</span>
+                    <select type="text" name="" id="Area">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </div>
+
+                <div class="input">
+                    <span>Numbering</span>
+                    <select type="text" name="" id="Area">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </div>
+
+                <div class="text-box">
+                    <span>Class</span>      
+                    <div class="search">
+                        <input type="text" name="" placeholder="" id="">
+                        <ion-icon class="search-icon" name="search"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="input-text">
+                    <span>Currency</span>
+                    <select type="text" name="" id="Area">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                    <span>Rate</span>
+                    <input type="text" name="" id="">
+                </div>
+
+                <div class="input">
+                    <span>Party</span>
+                    <select type="text" name="" id="Area">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </div>
+
+                <div class="input">
+                    <span>Agent</span>
+                    <select type="text" name="" id="Area">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </div>
+
+                <div class="input">
+                    <span> Doc Agent</span>
+                    <select type="text" name="" id="Area">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </div>
+
+                <div class="input">
+                    <span>Area</span>
+                    <select type="text" name="" id="Area">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </div>
+
+                <div class="input">
+                    <span>Option</span>
+                    <select type="text" name="" id="Area">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </div>
+
+                <div class="input">
+                    <span> From Date</span>
+                    <input type="date" name="" id="">
+                    <input type="date" name="" id="">
+                </div>
+
+                <div class="input">
+                    <span> To Date</span>
+                    <input type="date" name="" id="">
+                    <input type="date" name="" id="">
+                </div>
+
+                <div class="input">
+                    <span>Days Basis</span>
+                    <select type="text" name="" id="Area">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </div>
+
+                <div class="input">
+                    <span>Bill Status</span>
+                    <select type="text" name="" id="Area">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </div>
+
+                <div class="buttons-1">
+                    <div class="load-btn">
+                        <ion-icon name="refresh"></ion-icon>
+                        <span>Load Data</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-1">
+                <div class="input-box">
+                    <span class="item-1">Bill No</span>
+                </div>
+                <div class="input-box">
+                    <span class="item-2">Bill Date</span>
+                </div>
+                <div class="input-box">
+                    <span class="item-3">Due Date</span>
+                </div>
+                <div class="input-box">
+                    <span class="item-4">Party Name</span>
+                </div>
+                <div class="input-box">
+                    <span class="item-5">Bill Amt</span>
+                </div>
+                <div class="input-box">
+                    <span class="item-6">Due Date</span>
+                </div>
+                <div class="input-box">
+                    <span class="item-7">Discount</span>
+                </div>
+                <div class="input-box">
+                    <span class="item-8">Balance</span>
+                </div>
+                <div class="input-box">
+                    <span class="item-8"></span>
+                </div>
+                <div class="input-box">
+                    <span class="item-9">Cash Collection</span>
+                </div>
+                <div class="input-box">
+                    <span class="item-9">Receipt No</span>
+                </div>
+                <div class="text">
+                    <input type="text" name="" placeholder="ABC">
+                    <input type="text" name="" placeholder="ABC">
+                    <input type="text" name="" placeholder="ABC">
+                    <input type="text" name="" placeholder="ABC">
+                    <input type="text" name="" placeholder="=">
+                    <input type="text" name="" placeholder="=">
+                    <input type="text" name="" placeholder="=">
+                    <input type="text" name="" placeholder="=">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="=">
+                    <input type="text" name="" placeholder="ABC">
+                </div>
+            </div>
+
+            <div class="text-input">
+                    <div class="text-1">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                </div>
+                <div class="text-1">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                </div>
+                <div class="text-1">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                </div>
+                <div class="text-1">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                </div>
+                <div class="text-1">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                </div>
+                <div class="text-1">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                </div>
+                <div class="text-1">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                </div>
+                <div class="text-1">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                </div>
+                <div class="text-1">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                </div>
+                <div class="text-1">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                </div>
+                <div class="text-1">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                </div>
+                <div class="text-1">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                </div>
+                <div class="text-1">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                </div>
+                <div class="text-1">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                </div>
+                <div class="text-1">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                </div>
+                <div class="text-1">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                </div>
+                <div class="text-1">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                </div>
+                <div class="text-1">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                </div>
+                <div class="text-1">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                </div>
+                <div class="text-1">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                </div>
+                <div class="text-1">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                </div>
+                <div class="text-1">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                    <input type="text" name="" placeholder="">
+                </div>
+            </div>
+            
+            <div class="sub-container">
+                <div class="text-2">
+                    <input type="text" name="" placeholder="0">
+                    </div>
+                 <div class="text-3">
+                    <input type="text" name="" placeholder="">
+                    </div>
+                <div class="text-3">
+                    <input type="text" name="" placeholder="">
+                    </div>
+                 <div class="text-3">
+                    <input type="text" name="" placeholder="">
+                    </div>
+                <div class="text-2">
+                    <input type="text" name="" placeholder="0">
+                    </div>
+                <div class="text-2">
+                    <input type="text" name="" placeholder="0">
+                    </div>
+                <div class="text-2">
+                    <input type="text" name="" placeholder="0.00">
+                    </div>
+                <div class="text-2">
+                    <input type="text" name="" placeholder="0.00">
+                    </div>
+                <div class="text-3">
+                    <input type="text" name="" placeholder="">
+                    </div>
+                <div class="text-2">
+                    <input type="text" name="" placeholder="0.00">
+                    </div>
+                <div class="text-3">
+                    <input type="text" name="" placeholder="">
+                    </div>
+            </div>
+
+            <div class="buttons-2">
+                <div class="ok-btn btn">
+                    <ion-icon name="checkmark"></ion-icon>
+                    <span>&nbsp;&nbsp;Ok&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                </div>
+                <div class="Cancel-btn btn">
+                    <ion-icon name="close"></ion-icon>
+                    <span>Cancel</span>
+                </div>
+
+                <div class="text-4">
+                    <span>Remarks</span>
+                    <input type="text" name="" id="">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>

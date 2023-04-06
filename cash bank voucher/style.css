@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: #f5f6f8;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+}
+
+.grid-3col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0.5rem;
+    background: #fff;
+    padding: 0.5rem;
+}
+
+.grid-3col .input span {
+    font-size: 1rem;
+    width: 35%;
+    padding-right: 0.5rem;
+}
+
+.grid-3col .input select {
+    width: 60%;
+    height: 23px;
+}
+
+.sub-container {
+    display: grid;
+    grid-template-columns: 408px 200px 200px 541px;
+    margin-left: 0.5rem;
+    background: #fff;
+    margin-right: 0.5rem;
+    border: 1px solid #777;
+}
+
+.sub-container .input-box {
+    border: 1px solid #777;
+    padding: 0.3rem 0;
+    text-align: center;
+}
+
+.sub-container .input-box span {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.text {
+    display: grid;
+    grid-template-columns: 408px 200px 200px 541px;
+}
+
+.text input {
+    height: 21px;
+}
+
+.sub-container .input-text .text-1 {
+    display: grid;
+    grid-template-columns: 408px 200px 200px 541px;
+}
+
+.input-text .text-1 input {
+    outline: none;
+    border: none;
+}
+
+.sub-container-1 .input-text1 {
+    display: grid;
+    grid-template-columns: 408px 200px 200px 541px;
+    margin: 0 0.5rem;
+    border: 1px solid #777;
+    padding: 0.5rem 0;
+}
+
+.input-text1 .text-2 input {
+    outline: none;
+    border: none;
+    display: none;
+}
+
+.input-text1 .text-3 input {
+    height: 21px;
+}
+
+.buttons-2 {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    margin-left: 0.5rem;
+}
+
+.buttons-2 .btn {
+    display: flex;
+    color: #000;
+    background: #f5f6f8;
+    padding: 0.2rem 1rem;
+    border-radius: 3px;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    border: 1px solid #777;
+}
+
+.buttons-2 .ok-btn ion-icon {
+    display: block;
+    color: #4cdf4c;
+    padding: 0.2em;
+}
+
+.buttons-2 .Cancel-btn ion-icon {
+    display: block;
+    color: red;
+    padding: 0.2rem;
+}
+
+.buttons-2 .btn:hover {
+    background-color: #fff;
+    color: #777;
+
+}
+
+.buttons-2 .text-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.text-4 span {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 3.5rem;
+    margin-right: 1rem;
+}
+
+.text-4 input {
+    width: 61rem;
+    height: 24px;
+}
